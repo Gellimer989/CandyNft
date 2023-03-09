@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@types/mocha": "^10.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ethereumjs-utils": "^5.2.5",
+    "ipfs-api": "^26.1.2",
+    "ipfs-core": "^0.18.0",
+    "ipfs-http-client": "^56.0.2",
+    "jquery": "^3.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.13.8",
+    "sequelize": "^6.28.0",
+    "solc": "^0.8.17",
+    "sqlite3": "^5.1.4",
+    "truffle": "^5.7.3",
+    "web3": "^1.8.1",
+    "window": "^1.0.0"
+  }
+}

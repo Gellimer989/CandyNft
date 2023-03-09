@@ -1,0 +1,83 @@
+.main-containerl{
+    flex-direction: column;
+    background-image: linear-gradient(to left,rgb(118, 22, 163,0.5),rgb(255, 255, 255,0.5));
+    height: 46.8vw;
+}
+
+
+#logol{
+    margin-top: 4%;
+}
+
+@media screen and (min-width: 50px) {
+    #logol{
+        margin-top: 2%;
+        margin-left: 2%;
+        max-width: 18%;
+    }
+   
+};
+
+.bodyl{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+   
+}
+
+.containerl {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-imagel {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+#img-backgroundl{
+    border-radius :20%;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 100px) {
+    #img-backgroundl{
+        width: 50%;
+    }
+    
+}
+
+.divb-uttonl {
+    margin-top: 20px;
+    align-content: 'center';
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.position-imagel{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonl {
+    white-space:nowrap;
+    margin: 20px;
+    width: 200px;
+    background-color: rgb(255, 255, 255,0.2);
+    font-family: 'Ofl_regular';
+    border: 3px solid;
+    border-bottom-color: rgb(118, 22, 163);
+    border-right-color: rgb(118, 22, 163);
+    border-radius: 40%;
+}
+
+.buttonl:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+

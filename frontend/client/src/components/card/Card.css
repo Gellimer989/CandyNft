@@ -1,0 +1,54 @@
+.div-card{
+    margin-top: 5%;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(167, 158, 158,0.2);
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    min-height: 400px;
+    
+}
+
+#card-image{
+    border-radius: 20%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+    width: 98%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+#card-title{
+    word-wrap: break-word;
+    font-family: 'Ofl_regular';
+    margin: 1px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#card-value{
+    font-size: 15px;
+    text-align: center;
+}
+
+#card-description{
+    word-wrap: break-word;
+    font-size: 15px;
+}
